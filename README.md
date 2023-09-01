@@ -1,7 +1,7 @@
 # iOS Home Task for iOS positions
 
-1. Fork this repo to your own Github & invite: @mario-deblock.
-2. Make it private so other candidates dont copy you :)
+1. Create a new private repo and invite: @mario-deblock.
+2. Start or upload your project.
 3. We take into account:
   - Xcode SwiftUI full-lifecycle project/workspace (Bonus for workspace setup)
   - Bonus for iOS workspace with multiple targets to separate Core (platform and framework agnostic) module from SwiftUI (views and components) and Main modules
