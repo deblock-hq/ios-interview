@@ -5,6 +5,11 @@
 3. We take into account:
   - Xcode SwiftUI full-lifecycle project/workspace (Bonus for workspace setup)
   - Bonus for iOS workspace with multiple targets to separate Core (platform and framework agnostic) module from SwiftUI (views and components) and Main modules
+  - SOLID principles hands-on.
+  - Most important thing, flexibility to understand this: "Don’t over-engineering! 
+  - Model-View (MV) should be the natural way in SwiftUI.
+  - Unit testing (core module).
+  - Bonus: understanding of Composition Root concept.
 
 ## Requirements
 
