@@ -16,7 +16,7 @@
 ### Design
 ![Screenshot 2023-09-01 at 14 34 54](https://github.com/deblock-hq/ios-interview/assets/115789674/2fc24d37-9fd3-4725-bde3-d55cbe6aa9ad)
 
-[Figma file to follow colors, spacing, icons, etc here](https://www.figma.com/file/SaT9UfRVHwrcpCN8p1kVKl/Test-project?type=design&node-id=0%3A1&mode=design&t=gS6wgz3FuWBBJfqV-1)
+[Figma file to follow colors, spacing, icons, etc here]([https://www.figma.com/file/SaT9UfRVHwrcpCN8p1kVKl/Test-project?type=design&node-id=0%3A1&mode=design&t=gS6wgz3FuWBBJfqV-1](https://www.figma.com/file/VT93Wn2koJjJpX38iZuVaL/Dev-Interview-Area?type=design&node-id=0%3A1&mode=design&t=S9xrmHEP2HpdbZds-1)
 
 ### Features
 A Deblock user has a crypto wallet. This crypto wallet contains ETH.
