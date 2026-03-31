@@ -29,8 +29,9 @@ We provide the folder `.claude/` with useful ready made assets, but you can tran
 ## Requirements
 
 ### Design
+<img width="1185" height="814" alt="Screens" src="https://github.com/user-attachments/assets/a2f9c31c-38d0-4e56-856b-c162bfa6ff55" />
 
-[Figma file to follow colors, spacing, icons, etc here](https://www.figma.com/design/62KFvBRvs44chtjkW43z0D/iOS-tests---Mar-2026?node-id=0-1&t=yXjfpNi5UNdPllu0-1)
+🎨 => [Figma file to follow colors, spacing, icons, etc here](https://www.figma.com/design/62KFvBRvs44chtjkW43z0D/iOS-tests---Mar-2026?node-id=0-1&t=yXjfpNi5UNdPllu0-1)
 
 ### Features
 
