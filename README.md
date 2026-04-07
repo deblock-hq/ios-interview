@@ -9,6 +9,7 @@ We provide the folder `.claude/` with useful ready made assets, but you can tran
 - We will review your **git history** to assess progress and workflow. We score descriptive commits that reflect meaningful, incremental pieces of work. Bonus if we see the provided `/commit` under `.claude/commands` (or one of your own) used as you progress through the implementation. The commit history shows your structure when building a feature, and we pay attention to it.
 - We have included a `.claude/rules/architecture.md` file in this repo describing the architecture and coding standards we follow at Deblock. You can feed this to your AI assistant for context, or simply use it as a manual reference: what matters is the outcome.
 - We score positively if the architecture described in that file is followed.
+- We pay the most attention to the graph.
 
 ---
 
