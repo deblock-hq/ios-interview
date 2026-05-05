@@ -1,0 +1,41 @@
+# === Deblock Supply Chain Security additions (managed) ===
+# Security team is added as additional owner on sensitive paths.
+# Inline edits to existing rules above preserve all prior owners.
+# See: https://www.notion.so/deblock-team/Security-Policy-Supply-Chain
+
+.github/**                                   @deblock-hq/security
+/CODEOWNERS                                  @deblock-hq/security
+package-lock.json                            @deblock-hq/security
+**/package-lock.json                         @deblock-hq/security
+yarn.lock                                    @deblock-hq/security
+**/yarn.lock                                 @deblock-hq/security
+pnpm-lock.yaml                               @deblock-hq/security
+**/pnpm-lock.yaml                            @deblock-hq/security
+go.sum                                       @deblock-hq/security
+**/go.sum                                    @deblock-hq/security
+go.mod                                       @deblock-hq/security
+**/go.mod                                    @deblock-hq/security
+gradle.lockfile                              @deblock-hq/security
+**/gradle.lockfile                           @deblock-hq/security
+/gradle/verification-metadata.xml            @deblock-hq/security
+**/gradle/verification-metadata.xml          @deblock-hq/security
+Pipfile.lock                                 @deblock-hq/security
+**/Pipfile.lock                              @deblock-hq/security
+poetry.lock                                  @deblock-hq/security
+**/poetry.lock                               @deblock-hq/security
+Podfile.lock                                 @deblock-hq/security
+**/Podfile.lock                              @deblock-hq/security
+Package.resolved                             @deblock-hq/security
+**/Package.resolved                          @deblock-hq/security
+/vendor/**                                   @deblock-hq/security
+**/vendor/**                                 @deblock-hq/security
+.npmrc                                       @deblock-hq/security
+**/.npmrc                                    @deblock-hq/security
+pip.conf                                     @deblock-hq/security
+**/pip.conf                                  @deblock-hq/security
+settings.gradle.kts                          @deblock-hq/security
+**/settings.gradle.kts                       @deblock-hq/security
+settings.gradle                              @deblock-hq/security
+**/settings.gradle                           @deblock-hq/security
+/crypto-v2/**                                @deblock-hq/security
+/cards-pci/**                                @deblock-hq/security
