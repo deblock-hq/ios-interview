@@ -4,7 +4,7 @@
 # See: https://www.notion.so/deblock-team/Security-Policy-Supply-Chain
 
 .github/**                                   @deblock-hq/security
-/CODEOWNERS                                  @deblock-hq/security
+/.github/CODEOWNERS                                  @deblock-hq/security
 package-lock.json                            @deblock-hq/security
 **/package-lock.json                         @deblock-hq/security
 yarn.lock                                    @deblock-hq/security
