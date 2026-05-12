@@ -39,3 +39,19 @@ settings.gradle                              @deblock-hq/security
 **/settings.gradle                           @deblock-hq/security
 /crypto-v2/**                                @deblock-hq/security
 /cards-pci/**                                @deblock-hq/security
+
+# === Deblock Supply Chain Security additions (managed) ===
+# Security team is added as additional owner on sensitive paths.
+# Inline edits to existing rules above preserve all prior owners.
+# See: https://www.notion.so/deblock-team/Security-Policy-Supply-Chain
+
+**/Dockerfile                                @deblock-hq/security
+Dockerfile.*                                 @deblock-hq/security
+**/Dockerfile.*                              @deblock-hq/security
+**/package.json                              @deblock-hq/security
+**/pyproject.toml                            @deblock-hq/security
+**/build.gradle.kts                          @deblock-hq/security
+**/build.gradle                              @deblock-hq/security
+**/requirements.txt                          @deblock-hq/security
+**/Podfile                                   @deblock-hq/security
+**/Package.swift                             @deblock-hq/security
