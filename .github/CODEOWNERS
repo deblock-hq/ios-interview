@@ -1,57 +1,10 @@
-# === Deblock Supply Chain Security additions (managed) ===
-# Security team is added as additional owner on sensitive paths.
-# Inline edits to existing rules above preserve all prior owners.
+
+
+# === Deblock Supply Chain Security (managed — minimalist 2026-05-13) ===
+# Only .github/** routes through team review; CODEOWNERS itself gates on security.
+# All other supply-chain enforcement is via the Supply Chain Policy Linter
+# (block mode for registries, SHA-pins, postinstall allowlist, license check).
 # See: https://www.notion.so/deblock-team/Security-Policy-Supply-Chain
 
-.github/**                                   @deblock-hq/security
-/.github/CODEOWNERS                                  @deblock-hq/security
-package-lock.json                            @deblock-hq/security
-**/package-lock.json                         @deblock-hq/security
-yarn.lock                                    @deblock-hq/security
-**/yarn.lock                                 @deblock-hq/security
-pnpm-lock.yaml                               @deblock-hq/security
-**/pnpm-lock.yaml                            @deblock-hq/security
-go.sum                                       @deblock-hq/security
-**/go.sum                                    @deblock-hq/security
-go.mod                                       @deblock-hq/security
-**/go.mod                                    @deblock-hq/security
-gradle.lockfile                              @deblock-hq/security
-**/gradle.lockfile                           @deblock-hq/security
-/gradle/verification-metadata.xml            @deblock-hq/security
-**/gradle/verification-metadata.xml          @deblock-hq/security
-Pipfile.lock                                 @deblock-hq/security
-**/Pipfile.lock                              @deblock-hq/security
-poetry.lock                                  @deblock-hq/security
-**/poetry.lock                               @deblock-hq/security
-Podfile.lock                                 @deblock-hq/security
-**/Podfile.lock                              @deblock-hq/security
-Package.resolved                             @deblock-hq/security
-**/Package.resolved                          @deblock-hq/security
-/vendor/**                                   @deblock-hq/security
-**/vendor/**                                 @deblock-hq/security
-.npmrc                                       @deblock-hq/security
-**/.npmrc                                    @deblock-hq/security
-pip.conf                                     @deblock-hq/security
-**/pip.conf                                  @deblock-hq/security
-settings.gradle.kts                          @deblock-hq/security
-**/settings.gradle.kts                       @deblock-hq/security
-settings.gradle                              @deblock-hq/security
-**/settings.gradle                           @deblock-hq/security
-/crypto-v2/**                                @deblock-hq/security
-/cards-pci/**                                @deblock-hq/security
-
-# === Deblock Supply Chain Security additions (managed) ===
-# Security team is added as additional owner on sensitive paths.
-# Inline edits to existing rules above preserve all prior owners.
-# See: https://www.notion.so/deblock-team/Security-Policy-Supply-Chain
-
-**/Dockerfile                                @deblock-hq/security
-Dockerfile.*                                 @deblock-hq/security
-**/Dockerfile.*                              @deblock-hq/security
-**/package.json                              @deblock-hq/security
-**/pyproject.toml                            @deblock-hq/security
-**/build.gradle.kts                          @deblock-hq/security
-**/build.gradle                              @deblock-hq/security
-**/requirements.txt                          @deblock-hq/security
-**/Podfile                                   @deblock-hq/security
-**/Package.swift                             @deblock-hq/security
+.github/**                                   @deblock-hq/platform @deblock-hq/security
+.github/CODEOWNERS                           @deblock-hq/security
