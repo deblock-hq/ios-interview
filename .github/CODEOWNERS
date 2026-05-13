@@ -1,0 +1,10 @@
+
+
+# === Deblock Supply Chain Security (managed — minimalist 2026-05-13) ===
+# Only .github/** routes through team review; CODEOWNERS itself gates on security.
+# All other supply-chain enforcement is via the Supply Chain Policy Linter
+# (block mode for registries, SHA-pins, postinstall allowlist, license check).
+# See: https://www.notion.so/deblock-team/Security-Policy-Supply-Chain
+
+.github/**                                   @deblock-hq/platform @deblock-hq/security
+.github/CODEOWNERS                           @deblock-hq/security
